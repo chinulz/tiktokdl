@@ -2,7 +2,8 @@ document.getElementById('headertxt').innerHTML = 'Tiktok Downloader';
 document.getElementById('linktxt').innerHTML = 'Masukan Link';
 
 //apikey
-let ehem = String.fromCharCode(110, 117, 108, 103, 97, 110, 116, 101, 110, 103);
+let ehem = ('\x6e\x75\x6c\x67\x61\x6e\x74\x65\x6e\x67'); //HEX
+/*let ehem = String.fromCharCode(110, 117, 108, 103, 97, 110, 116, 101, 110, 103);*/ //ASCII
 var key = ehem;
 
 //functional
